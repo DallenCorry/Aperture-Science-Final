@@ -6,13 +6,35 @@
  */
  /*Pallete: #51472e, #147772, #d74923, #efa61c, #efefcb*/
 
+ /*CSS Reset*/
+ body, header, nav, main, footer, h1, div, img {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+}
+ 
 /* Mobile First Development */
+
+header {
+    background-color: black;
+}
 
 .palette {
     background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
     text-align: center;
     font-size: 3em;
 }
+
+body {
+    background-color: #efefcb;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto, auto, auto;
+    grid-gap: 20px;
+}
+
 /* Tablet View */
 
 /* Desktop View */
