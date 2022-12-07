@@ -5,8 +5,4 @@
     Version 1.0
  */
 
-/* Mobile First Development */
-
-/* Tablet View */
-
-/* Desktop View */
+    
