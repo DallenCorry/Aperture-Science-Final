@@ -4,9 +4,15 @@
     Date: 12/05/2022
     Version 1.0
  */
+ /*Pallete: #51472e, #147772, #d74923, #efa61c, #efefcb*/
 
 /* Mobile First Development */
 
+.palette {
+    background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
+    text-align: center;
+    font-size: 3em;
+}
 /* Tablet View */
 
 /* Desktop View */
