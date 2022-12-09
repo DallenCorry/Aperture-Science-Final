@@ -23,6 +23,12 @@ header img {
     width: auto;
     max-width: 100%;
 }
+/* 
+.top-brown {
+    background-color: #51472e;
+    color: #efa61c;
+
+}*/
 
 .palette {
     background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
