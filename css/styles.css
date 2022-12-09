@@ -39,18 +39,17 @@ body {
     background-color: #efefcb;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
-
-
 .grid-display {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
 }
+
+.grid-display img {
+    max-width: 100%;
+    display: block;
+}
+
 footer {
     text-align: center;
 }
