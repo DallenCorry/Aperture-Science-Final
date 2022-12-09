@@ -6,6 +6,8 @@
  */
  /*Pallete: #51472e, #147772, #d74923, #efa61c, #efefcb*/
 
+ @import url('https://fonts.googleapis.com/css2?family=B612&family=Crimson+Pro&family=Oswald&display=swap'); 
+
  /*CSS Reset*/
  body, header, nav, main, footer, h1, div, img {
     margin: 0; 
