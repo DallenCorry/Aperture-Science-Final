@@ -44,13 +44,12 @@ img {
     display: block;
 }
 
-
-
 .grid-display {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
 }
+
 footer {
     text-align: center;
 }
