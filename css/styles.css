@@ -71,6 +71,15 @@ footer {
     font-family: 'Oswald';
 }
 
+.footer-name {
+    padding-top: 5px;
+    font-size: .75em;
+    color:#57565c;
+}
+
+.footer-name a {
+    color: inherit;
+}
 
 .frame {
     position: relative;
