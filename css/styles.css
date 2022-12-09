@@ -39,17 +39,28 @@ body {
     background-color: #efefcb;
 }
 
+<<<<<<< HEAD
 img {
     max-width: 100%;
     display: block;
 }
 
+=======
+>>>>>>> 13e84ed51a131586da7e3f4dfeb1cddd223a19b1
 .grid-display {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.grid-display img {
+    max-width: 100%;
+    display: block;
+}
+
+>>>>>>> 13e84ed51a131586da7e3f4dfeb1cddd223a19b1
 footer {
     text-align: center;
 }
