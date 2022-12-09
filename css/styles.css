@@ -101,6 +101,12 @@ aside {
     margin: 0 10%;
 }
 
+figcaption {
+    font-size: .75em;
+    font-style: italic;
+    color: gray;
+}
+
 #port-head {
     width: 100%;
 }
