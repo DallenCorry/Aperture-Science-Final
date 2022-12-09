@@ -19,6 +19,11 @@ header {
     background-color: #212529;
 }
 
+header img {
+    width: auto;
+    max-width: 100%;
+}
+
 .palette {
     background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
     text-align: center;
@@ -82,7 +87,7 @@ aside {
 
 /* Tablet View */
 /* Media Query for Tablet Viewport */
-@media (min-width: 768px) {  
+@media (min-width: 575px) {  
 
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
