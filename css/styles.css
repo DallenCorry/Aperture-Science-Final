@@ -182,6 +182,18 @@ figcaption {
     display:none;
 }
 
+.grid-award {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+
+}
+
+.grid-award img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Tablet View */
 /* Media Query for Tablet Viewport*/
 @media (min-width: 768px) {  
