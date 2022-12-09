@@ -23,12 +23,13 @@ header img {
     width: auto;
     max-width: 100%;
 }
-/* 
+
 .top-brown {
     background-color: #51472e;
     color: #efa61c;
-
-}*/
+    /*font-family: 'Oswald';
+    font-size: 1.25em;*/
+}
 
 .palette {
     background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
