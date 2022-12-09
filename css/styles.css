@@ -24,11 +24,19 @@ header img {
     max-width: 100%;
 }
 
-.top-brown {
+.nav-entry {
     background-color: #51472e;
     color: #efa61c;
-    /*font-family: 'Oswald';
-    font-size: 1.25em;*/
+    font-family: 'Crimson Pro';
+    font-size: 1.1em;
+}
+
+.dropdown a:hover {
+    color: #efa61c;
+}
+
+#about {
+    padding-right: 0.75em;
 }
 
 .palette {
@@ -113,6 +121,20 @@ aside {
     
     #desktopOnly {
         display: block;
+    }
+
+    .nav-entry a:hover {
+        background-color: #147772;
+        color: black;
+    }
+    
+    .dropdown-divider {
+        border-color: #147772;
+    
+    }
+
+    #about {
+        padding-right: 0;
     }
 
 }
