@@ -39,10 +39,41 @@ body {
     background-color: #efefcb;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.grid-display {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
 footer {
     text-align: center;
 }
 
+
+.frame {
+    position: relative;
+    max-width: 200px;
+    margin: 2% auto;
+}
+
+.pic-text {
+    position: relative;
+    bottom: 0;
+    background: #147772;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
 
 /* Tablet View */
 
