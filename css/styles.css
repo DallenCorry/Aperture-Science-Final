@@ -6,29 +6,17 @@
  */
  /*Pallete: #51472e, #147772, #d74923, #efa61c, #efefcb*/
 
- @import url('https://fonts.googleapis.com/css2?family=B612&family=Crimson+Pro&family=Oswald&display=swap'); 
-
  /*CSS Reset*/
  body, header, nav, main, footer, h1, div, img {
     margin: 0; 
     padding: 0;
-    border: 0;
+    border: 0; 
 }
  
 /* Mobile First Development */
 
 header {
     background-color: #212529;
-}
-
-aside {
-    text-align: center;
-    font-size: 1.25em;
-    padding: 2%;
-    background-color: #efa61c;
-    box-shadow: 5px 5px 10px #51472e;
-    border-radius: 15px;
-    margin: 0 10%;
 }
 
 .palette {
@@ -40,17 +28,13 @@ aside {
 body {
     background-color: #efefcb;
 }
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
+/*
 .grid-display {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-}
+
+}*/
 
 .grid-display img {
     max-width: 100%;
@@ -82,6 +66,43 @@ footer {
     font-weight: bold;
 }
 
+aside {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 2%;
+    background-color: #efa61c;
+    box-shadow: 5px 5px 10px #51472e;
+    border-radius: 15px;
+    margin: 0 10%;
+}
+
+#desktopOnly {
+    display:none;
+}
+
 /* Tablet View */
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {  
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .grid-display {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+    
+    #desktopOnly {
+        display: block;
+    }
+
+}
 
 /* Desktop View */
