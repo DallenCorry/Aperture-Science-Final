@@ -19,6 +19,16 @@ header {
     background-color: #212529;
 }
 
+aside {
+    text-align: center;
+    font-size: 1.25em;
+    padding: 2%;
+    background-color: #efa61c;
+    box-shadow: 5px 5px 10px #51472e;
+    border-radius: 15px;
+    margin: 0 10%;
+}
+
 .palette {
     background: linear-gradient(to right, #51472e, #147772, #d74923 , #efa61c , #efefcb );
     text-align: center;
@@ -29,11 +39,10 @@ body {
     background-color: #efefcb;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: auto, auto, auto;
-    grid-gap: 20px;
+footer {
+    text-align: center;
 }
+
 
 /* Tablet View */
 
