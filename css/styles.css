@@ -53,6 +53,16 @@ main {
     padding: 2% 1em 0 1em;
 }
 
+h1 {
+    color:#d74923;
+}
+
+.inlineLink {
+    text-decoration: none;
+    color:#d74923;
+    font-weight: bold;
+    font-size: 1.2em;
+}
 /*
 .grid-display {
     display: grid;
@@ -102,11 +112,29 @@ footer {
 aside {
     text-align: center;
     font-size: 1.25em;
+    font-family: 'Crimson Pro';
     padding: 2%;
     background-color: #efa61c;
     box-shadow: 5px 5px 10px #51472e;
     border-radius: 15px;
     margin: 0 10%;
+}
+
+/*For 2 columns on Experiment page*/
+.myCol {
+    float: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.myCol img{
+    display: none;
+}
+
+.smallGrid::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 figcaption {
@@ -262,6 +290,9 @@ figcaption {
     
     #desktopOnly {
         display: block;
+        font-family: 'Crimson Pro';
+        font-size: 1.2em;
+        padding: 3% 5%;
     }
 
     .nav-entry a:hover {
@@ -295,6 +326,23 @@ figcaption {
     .btn {
         width: 35%;
         margin: 0 auto;
+    }
+
+    /*For 2 columns on experiment page*/
+    .myCol {
+        float: left;
+        width: 50%;
+        padding: 15px;
+    }
+    
+    .myCol img{
+        display: block;
+    }
+    
+    .smallGrid::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 
 }
