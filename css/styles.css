@@ -201,6 +201,46 @@ figcaption {
     display: block;
 }
 
+#v img {
+    width: 100%;
+}
+
+#fbut {
+    padding-bottom: 5px;
+}
+
+#fBut button {
+    background-color:#147772;
+    font-weight: bold;
+}
+
+#optNot {
+    display: none;
+}
+
+#form-con, #subject-form, #science-form {
+    display: none;
+    padding-top:15px;
+}
+
+#form-con {
+    padding-top: 10px;
+}
+
+#form-con form div {
+    padding-top: 5px;
+}
+
+#subject-form .row {
+    padding-top: 35px;
+}
+
+.btn {
+    background-color: #d74923;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
 /* Tablet View */
 /* Media Query for Tablet Viewport*/
 @media (min-width: 768px) {  
@@ -247,6 +287,11 @@ figcaption {
         display: inline-block;     
     }
 
+    .btn {
+        width: 35%;
+        margin: 0 auto;
+    }
+
 }
 
 /* Desktop View */
@@ -269,4 +314,26 @@ figcaption {
         font-weight: 700;
     }
 
+}
+
+@media (min-width: 1440px) {  
+
+    #v {
+        display: inline-block;
+    }
+
+    #v img {
+        width: 49%;
+        display: inline-block;
+    }
+
+    #fBut {
+        width: 49%;
+        display: inline-block;
+    }
+
+    #form-con {
+        width: 75%;
+        margin: 0 auto;
+    }
 }
