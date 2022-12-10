@@ -19,3 +19,12 @@ function scForm() {
     document.getElementById("science-form").style.display = "block";
     document.getElementById("subject-form").style.display = "none";
 }
+
+/*These don't work with images that have max-width set in CSS*/
+function enlarge(item) {
+    item.style.width = "300px";
+}
+
+function normalImg(item) {
+    item.style.width = "200px";
+}
