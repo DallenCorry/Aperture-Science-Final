@@ -53,6 +53,10 @@ main {
     padding: 2% 1em 0 1em;
 }
 
+h1 {
+    color:#d74923;
+}
+
 /*
 .grid-display {
     display: grid;
@@ -102,6 +106,7 @@ footer {
 aside {
     text-align: center;
     font-size: 1.25em;
+    font-family: 'Crimson Pro';
     padding: 2%;
     background-color: #efa61c;
     box-shadow: 5px 5px 10px #51472e;
@@ -201,6 +206,7 @@ figcaption {
     display: block;
 }
 
+
 /* Tablet View */
 /* Media Query for Tablet Viewport*/
 @media (min-width: 768px) {  
@@ -222,6 +228,9 @@ figcaption {
     
     #desktopOnly {
         display: block;
+        font-family: 'Crimson Pro';
+        font-size: 1.2em;
+        padding: 3% 5%;
     }
 
     .nav-entry a:hover {
