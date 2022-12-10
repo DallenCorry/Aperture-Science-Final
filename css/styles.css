@@ -31,7 +31,7 @@ header img {
     font-size: 1.1em;
 }
 
-.dropdown a:hover {
+.dropdown a:hover, .nav-entry:hover {
     color: #efa61c;
 }
 
@@ -287,6 +287,11 @@ figcaption {
         display: inline-block;     
     }
 
+    #form-con {
+        width: 75%;
+        margin: 0 auto;
+    }
+
     .btn {
         width: 35%;
         margin: 0 auto;
@@ -323,17 +328,18 @@ figcaption {
     }
 
     #v img {
-        width: 49%;
+        width: 50%;
         display: inline-block;
     }
 
     #fBut {
         width: 49%;
         display: inline-block;
+        padding-left: 10px;
     }
 
     #form-con {
-        width: 75%;
+        width: 65%;
         margin: 0 auto;
     }
 }
